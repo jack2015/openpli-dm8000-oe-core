@@ -14,7 +14,7 @@ SRC_URI = "	git://github.com/jack2015/gstplayer.git;protocol=git \
 			file://0004-increase-eos-fix-timeout-to-10s.patch \
 "
 
-S = "${WORKDIR}/git/"
+S = "${WORKDIR}/git"
 
 do_compile() {
 	cd ${S}/gst-1.0
